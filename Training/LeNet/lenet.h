@@ -1,19 +1,17 @@
-﻿/*
-@author : 范文捷
+﻿// This is a free public source code provided by the author 范文捷 (WenJie Fan)
+
+/*
+@author : 范文捷 (WenJie Fan)
 @data    : 2016-04-20
-@note	: 根据Yann Lecun的论文《Gradient-based Learning Applied To Document Recognition》编写
+@note	: Based on Yann Lecun's paper "Gradient-based Learning Applied To Document Recognition"
 @api	:
 
-批量训练
-void TrainBatch(LeNet5 *lenet, image *inputs, uint8 *labels, int batchSize);
+void TrainBatch(LeNet5 *lenet, Image *inputs, uint8 *labels, int batchSize);
 
-训练
-void Train(LeNet5 *lenet, image input, uint8 label);
+void Train(LeNet5 *lenet, Image input, uint8 label);
 
-预测
-uint8 Predict(LeNet5 *lenet, image input, uint8 count);
+uint8 Predict(LeNet5 *lenet, Image input, uint8 count);
 
-初始化
 void Initial(LeNet5 *lenet);
 */
 

@@ -1,3 +1,5 @@
+// This is a free public source code provided by the author 范文捷 (WenJie Fan)
+
 #include "lenet.h"
 #include <math.h>
 #include <memory.h>
