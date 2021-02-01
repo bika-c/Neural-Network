@@ -4,6 +4,8 @@
 - Left-click to draw.
 - Auto-feedback.
 
+![](https://image.alkaid.cloud/Github/Neural-Network/demo.gif)
+
 Source code is in the Neural Network Application folder. Requires third-party library to compile:
 
 - SDL2
