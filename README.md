@@ -13,4 +13,4 @@ Source code is in the Neural Network Application folder. Requires third-party li
 - SDL2-gfx
 
 Compile command:  
-`gcc main.c lenet.c mnist.c data.c graphics.c mathTools.c pixel.c -W -O2 -std=c11 -I{PATH TO YOUR include FOLDER} -L{PATH TO YOUR lib FOLDER} -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_gfx -mwindows -o '../Release\\$fileNameWithoutExt.exe'`
+`gcc main.c lenet.c mnist.c data.c graphics.c mathTools.c pixel.c -W -O2 -std=c11 -I{PATH TO YOUR include FOLDER} -L{PATH TO YOUR lib FOLDER} -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_gfx -mwindows -o 'main.exe'`
